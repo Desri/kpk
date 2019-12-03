@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Homepage</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Fontawesome core CSS -->
+  <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Slick core CSS -->
+  <link rel="stylesheet" type="text/css" href="plugin/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="plugin/slick/slick-theme.css">
+
+  <!-- Slideshow core CSS -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /*.slider {
+        width: 50%;
+        margin: 100px auto;
+    }*/
+
+    .slick-initialized .slick-slide {
+      margin: 0px;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom navbar-page">
+    <div class="container borderMenu">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/brand.png">
+      </a>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#">Beranda</a>
+          </li>
+          <li>
+            <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Profil
+            </a>
+            <div class="dropdown-menu dropdownmenu-custome" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Tentang Kami</a>
+              <a class="dropdown-item" href="#">Kontak</a>
+            </div>
+          </li>
+          <li>
+            <a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Produk
+            </a>
+            <ul class="dropdown-menu dropdownmenu-custome">
+              <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Program <span class="caret"></span></a>
+                <ul id="menu-hlavni-menu">
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Tentang Kami</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Sertifikasi</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">External Learning</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Internal Learning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Materi Pembelajaran <span class="caret"></span></a>
+                <ul id="menu-hlavni-menu">
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Audio Visual</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Infografis</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Video</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Book</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Board games</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Jadwal Kegiatan</a></li>
+              <li><a href="#">Info Sertifikasi</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Galeri</a>
+          </li>
+        </ul>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse menuRight" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item menuDesktop">
+            <a class="nav-link" href="#">FAQ</a>
+          </li>
+          <li class="nav-item menuDesktop">
+            <a class="nav-link" href="#">Sitemap</a>
+          </li>
+          <li class="nav-item menuMobile">
+            <a class="nav-link" href="#">Beranda</a>
+          </li>
+          <li class="menuMobile">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Profil
+            </a>
+            <ul class="dropdown-menu dropdownmenu-custome">
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Kontak</a></li>
+            </ul>
+          </li>
+
+          <li class="menuMobile">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Produk
+            </a>
+            <ul class="dropdown-menu dropdownmenu-custome">
+              <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Program <span class="caret"></span></a>
+                <ul id="menu-hlavni-menu">
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Tentang Kami</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Sertifikasi</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">External Learning</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Internal Learning</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="test" tabindex="-1" href="#">Materi Pembelajaran <span class="caret"></span></a>
+                <ul id="menu-hlavni-menu">
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Audio Visual</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Infografis</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Video</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Book</a>
+                  </li>
+                  <li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-has-children menu-item-61">
+                     <a href="#">Board games</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Jadwal Kegiatan</a></li>
+              <li><a href="#">Info Sertifikasi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item menuMobile">
+            <a class="nav-link" href="#">Galeri</a>
+          </li>
+          <li class="nav-item menuMobile">
+            <form>
+              <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Search...">
+            </form>
+          </li>
+          <li class="nav-item">
+            <button type="submit" class="btn btn-primary btnLoginHome">LOGIN</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="banners">
+    <div class="imgBanner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="titlePage">
+              <h2>Jadwal Kegiatan</h2>
+              <div class="lineText"></div>
+            </div>
+            <div class="breadcrum">
+                <ol class="breadcrumb breads">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Jadwal Kegiatan</li>
+                </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="jadwal">
+            <h3>Diskusi Publik</h3>
+            <div class="row">
+              <div class="col-sm-l6 col-lg-6">
+                <p>Tanggal &nbsp; : &nbsp; 7 Juni 2019</p>
+                <p>Jam &nbsp; : &nbsp; 08.00-12.00 WIB</p>
+                <p>Lokasi &nbsp; : &nbsp; Teater Mini Gedung ACLC</p>
+              </div>
+              <div class="col-sm-l6 col-lg-6">
+                <p>Kuota &nbsp; : &nbsp; 100</p>
+                <p>Sisa Kursi &nbsp; : &nbsp; 30</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="contentPage">
+            <img src="assets/img/imgContent.png" class="img-fluid">
+            <h3>Diskusi Publik</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <blockquote class="blockquote">
+              <p class="mb-0">The $57 million fine it isn’t much to the tech giant. (It amounts to roughly 0.15 percent of Google parent company Alphabet’s multibillion-dollar revenue in the most recent quarter alone.) But to the regulator, the fine was substantial. It was the largest-ever penalty for data privacy and was inflicted, CNIL said, due to the “severity of the infringements” and “continuous breaches of the regulation.”</p>
+            </blockquote>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <div class="imgPost">
+              <div class="row">
+                <div class="col-sm-6 col-lg-6">
+                  <div class="imgPosts">
+                    <img src="assets/img/flawer.png">
+                  </div>
+                </div>
+                <div class="col-sm-6 col-lg-6">
+                  <div class="imgPosts">
+                    <img src="assets/img/flawer2.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img src="assets/img/imgBtn.png" class="mt-4 mb-4">
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="action">
+        <div class="share">
+        <div class="colShare">
+          <div class="textShare">
+            Share :
+          </div>
+          <div class="sosmed">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="btnDownload">
+            <a href="#">Unduh Materi</a>
+            <a href="#">Unduh Sertifikat</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="regsiterBottom">
+        <div class="btnRegister">
+          <a href="#">REGISTER NOW</a>
+        </div>
+      </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <div class="footerTopDesc">
+      <div class="container foooterTop">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="headingFooter">
+              <img src="assets/img/brand.png">
+              <h2>Pusat Edukasi Antikorupsi</h2>
+            </div>
+            <div class="addressFooter">
+              <p>Our main focus is to provide high quality, objective and <br>informative travelling content from over the world.</p>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="headingFooter">
+              <h2>Navigation</h2>
+              <hr>
+            </div>
+            <div class="contentFooter">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Discover</a>
+                </li>
+                <li>
+                  <a href="#">Search</a>
+                </li>
+                <li>
+                  <a href="#">Upload</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 links">
+            <div class="headingFooter">
+              <h2>Links</h2>
+              <hr>
+            </div>
+            <div class="contentFooter">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Discover</a>
+                </li>
+                <li>
+                  <a href="#">Search</a>
+                </li>
+                <li>
+                  <a href="#">Upload</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-2">
+            <div class="headingFooter">
+              <h2>Follow us</h2>
+              <hr>
+            </div>
+            <div class="contentFooter">
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Sitemap</a>
+                </li>
+                <li>
+                  <a href="#">Contribute</a>
+                </li>
+              </ul>
+            </div>
+            <div class="inputSubs">
+              <form>
+                <div class="formInput">
+                  <input type="text" class="form-control" placeholder="Email...">
+                  <button type="submit" class="btn btn-primary btnSend"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 colFooter">
+            <p>&copy; 2019 Pusat Edukasi Antikorupsi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.dropdown-submenu a.test').on("click", function(e){
+        e.preventDefault();
+        $(this).next('ul').slideToggle();
+        e.stopPropagation();
+        
+      });
+    });
+
+    $(document).ready(function(){
+      $('.menu-item > a').click(function(e){
+        e.preventDefault();
+        $(this).next('.sub-menu').slideToggle();
+        e.stopPropagation();
+      });
+    });
+
+  </script>
+
+</body>
+</html>
