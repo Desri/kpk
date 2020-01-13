@@ -18,7 +18,39 @@ body {
 }
 .slider-nav-img img:hover {
   transform: scale(1.1);
+}
+.tableSertifikasi p {
+  color: #dddddd;
+}
+.tableSertifikasi ol {
+  padding-left: 0px;
+}
+.tableSertifikasi ol li {
+  color: #dddddd;
+}
+.tableSertifikasi ol li p {
+  color: #dddddd;
+  margin-bottom: 5px;
+}
 
+.tableSertifikasi .listTable {
+  width: 60%;
+  float: right;
+}
+.tableSertifikasi .listTable ul li {
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #dddddd;
+}
+.tableSertifikasi .listTable ul li a{
+  color: #ffffff;
+}
+.videoSertifikasi .sertifikasi {
+  text-align: center;
+}
+.videoSertifikasi .sertifikasi iframe {
+  height: 394px;
+  width: 700px;
 }
 /**FAQ**/
 #faq .accordion .card {
@@ -123,7 +155,7 @@ body {
   background-color: #dddddd;
 }
 .tableSertifikasi {
-  padding: 30px 4rem;
+  padding: 30px 2rem;
 }
 
 .containers {
@@ -1495,6 +1527,20 @@ img
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   .mView {
     display: block;
+  }
+  .videoSertifikasi .sertifikasi iframe {
+    width: 100%;
+  }
+  .tableSertifikasi .listTable {
+    float: inherit;
+    width: 100%;
+  }
+  .tableSertifikasi .listTable ul {
+    padding-left: 5px;
+    margin-top: 10px;
+  }
+  .tableSertifikasi ol {
+    padding-left: 20px;
   }
   .mView .desktopVersion p {
     text-align: center;
